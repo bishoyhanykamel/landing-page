@@ -8,20 +8,19 @@ body {
     font-family: 'Roboto', sans-serif;
     display: flex;
     flex-direction: column;
-    gap: 48px;
+    gap: 64px;
     align-items: center;
 }
 
 .wide-section {
-    width: 900px;
+    width: 1000px;
 }
 
 .section {
-    width: 600px;
+    width: 800px;
 }
 
 /* ======================================== [ HEADER ] ======================================== */
-
 #header {
     width: 100%;
     padding: 16px;
@@ -104,4 +103,43 @@ a {
 }
 .header-hero-text p {
     font-size: 18px;
+}
+
+/* ======================================== [ BODY-BOXES ] ======================================== */
+/* -------- [ BOX DIV ] -------- */
+#body-boxes {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    align-items: center;
+    padding: 24px;
+}
+/* -------- [ BOX HEADER ] -------- */
+#body-boxes h1 {
+    font-size: 36px;
+    font-weight: bold;
+}
+/* -------- [ BOXES CONTAINER ] -------- */
+.boxes {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+}
+.box-item {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    flex-wrap: nowrap;
+    text-align: center;
+}
+
+.box-shape {
+    width: 180px;
+    height: 180px;
+    border: 4px solid #3882F6;
+    border-radius: 12px;
+}
+
+.box-text p {
+    color: #5c5d5f;
 }
