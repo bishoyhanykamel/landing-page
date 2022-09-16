@@ -8,8 +8,9 @@ body {
     font-family: 'Roboto', sans-serif;
     display: flex;
     flex-direction: column;
-    gap: 64px;
+    gap: 24px;
     align-items: center;
+    justify-content: center;
 }
 
 .wide-section {
@@ -21,12 +22,15 @@ body {
 }
 
 #body-boxes, #body-quote, #body-action {
-    margin-bottom: 64px;
+    margin-bottom: 128px;
+    width: 100%;
 }
 /* ======================================== [ HEADER ] ======================================== */
 /* -------- [ MAIN HEADER ] -------- */
 #header {
-    padding: 16px 100%;
+    width: 100%;
+    margin-bottom: 24px;
+    padding: 16px 64px;
     padding-bottom: 64px;
     display: flex;
     flex-direction: column;
@@ -153,7 +157,7 @@ a {
     background-color: #E5E7EB;
     justify-content: center;
     align-items: center;
-    padding: 64px 100%;
+    padding: 64px 120px;
 }
 
 .quote {
@@ -171,6 +175,12 @@ a {
 }
 
 /* ======================================== [ BODY-ACTION ] ======================================== */
+#body-action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 #body-action .wide-section {
     display: flex;
     flex-direction: row;
@@ -193,5 +203,9 @@ a {
 
 /* ======================================== [ FOOTER ] ======================================== */
 .footer {
-    padding: 24px 64px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    padding: 24px 80px;
+    background-color:#1f2937;
 }
