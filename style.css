@@ -20,7 +20,7 @@ body {
     width: 800px;
 }
 
-#body-boxes, #body-quote {
+#body-boxes, #body-quote, #body-action {
     margin-bottom: 64px;
 }
 /* ======================================== [ HEADER ] ======================================== */
@@ -189,4 +189,9 @@ a {
     border: 2px solid white;
     border-radius: 12px;
     font-size: 18px;
+}
+
+/* ======================================== [ FOOTER ] ======================================== */
+.footer {
+    padding: 24px 64px;
 }
