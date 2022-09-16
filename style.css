@@ -20,6 +20,9 @@ body {
     width: 800px;
 }
 
+#body-boxes, #body-quote {
+    margin-bottom: 64px;
+}
 /* ======================================== [ HEADER ] ======================================== */
 #header {
     padding: 16px 100%;
@@ -109,7 +112,6 @@ a {
     flex-direction: column;
     gap: 64px;
     align-items: center;
-    padding: 24px 100%;
 }
 /* -------- [ BOX HEADER ] -------- */
 #body-boxes h1 {
@@ -143,7 +145,6 @@ a {
 
 /* ======================================== [ BODY-BOXES ] ======================================== */
 #body-quote {
-
     display: flex;
     flex-direction: column;
     gap: 16px;
@@ -151,7 +152,6 @@ a {
     justify-content: center;
     align-items: center;
     padding: 64px 100%;
-
 }
 
 .quote {
@@ -166,4 +166,25 @@ a {
     text-align: end;
     margin-right: 24px;
     color: #1f2937;
+}
+
+/* ======================================== [ BODY-ACTION ] ======================================== */
+#body-action .wide-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882F6;
+    padding: 48px 28px;
+    border-radius: 12px;
+    color: white;
+}
+.action-button button {
+    padding: 12px 36px;
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    border: 2px solid white;
+    border-radius: 12px;
+    font-size: 18px;
 }
