@@ -14,11 +14,11 @@ body {
 }
 
 .wide-section {
-    width: 1000px;
+    width: 70%;
 }
 
 .section {
-    width: 800px;
+    width: 50%;
 }
 
 #body-boxes, #body-quote, #body-action {
