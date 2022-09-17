@@ -128,14 +128,18 @@ a {
 .boxes {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
     gap: 32px;
 }
 .box-item {
+    width: 180px;
     display: flex;
     flex-direction: column;
     gap: 12px;
-    flex-wrap: nowrap;
-    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .box-shape {
@@ -147,6 +151,7 @@ a {
 
 .box-text p {
     color: #5c5d5f;
+    text-align: center;
 }
 
 /* ======================================== [ BODY-BOXES ] ======================================== */
